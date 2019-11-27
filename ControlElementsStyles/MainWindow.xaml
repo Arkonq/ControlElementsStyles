@@ -1,0 +1,18 @@
+﻿<Window x:Class="ControlElementsStyles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlElementsStyles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="123,200,0,0" VerticalAlignment="Top" Background="#FF258FA6"/>
+        <StackPanel Margin="568,187,94,162">
+            <RadioButton Content="RadioBtn 1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <RadioButton Content="RadioBtn 2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <ProgressBar IsIndeterminate="True" HorizontalAlignment="Center" Height="20" Margin="0,215,0,0" VerticalAlignment="Top" Width="100" BorderBrush="#FF12D312"/>
+
+    </Grid>
+</Window>
